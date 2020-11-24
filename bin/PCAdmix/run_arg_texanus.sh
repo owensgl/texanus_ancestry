@@ -1,0 +1,2 @@
+chr=$1
+/home/owens/bin/PCAdmix3_linux -anc Texanus.tranche90.snp.gwas.90.bi.beagle.ARG.$chr.haplotypes.txt Texanus.tranche90.snp.gwas.90.bi.beagle.ANN_CEN.$chr.haplotypes.txt  -adm Texanus.tranche90.snp.gwas.90.bi.beagle.ANN_TEX.$chr.haplotypes.txt -map Texanus.tranche90.snp.gwas.90.bi.beagle.$chr.physmap.txt -rho Texanus.tranche90.snp.gwas.90.bi.beagle.$chr.genmap.txt -o Texanus.tranche90.snp.gwas.90.bi.beagle.ANN_TEX.ARG-ANN.$chr -lab ARG ANN TEX -prune 0 -w 100
